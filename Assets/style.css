@@ -1,32 +1,21 @@
-html {
-    height: 100%;
-}
 
 body {
     background-image: url("./Images/Background.jpg");
-    background-repeat: repeat;
+    background-repeat: round;
     background-size: 300px 300px;
-    width: 100%;
-    height: 100%;
-
 }
 
-div.container {
-    width: 100%;
-    height: 100%;
+
+#page-container {
+  position: relative;
 }
 
 nav.whiteNav {
     background-color: #fff8f9;
 }
 
-div.mainContent {
-
-    height: 100%;
+#mainContent {
     background-color: white;
-    box-sizing: border-box;
-
-
 }
 
 #topbanner {
@@ -38,20 +27,12 @@ div.mainContent {
 }
 
 
-
-h4.photography {
-    color: #59aaa5; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-}
-
-h2.greeny {
+.greeny {
     color: #59aaa5; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 div.about_image {
-
     width: 450px; 
     height: auto;
 }
@@ -59,7 +40,6 @@ div.about_image {
 
 img.portfolio {
     width: 250px; 
-    height: auto;
 }
 
 p.biography {
@@ -69,75 +49,25 @@ p.biography {
 section.graybox {
     border-width: 3px; 
     border-style: inset; 
-    padding: 3px;
-    height: 100%;
-    margin: 0px
-
+    padding: 0 15px 15px 15px;
+    background-color: white;
 }
 
-.footer {
+#footer {
     color: darkgrey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: #fff8f9;
-    width: inherit;
-    padding: 20px;
+    margin-top: 0;
+    position: relative;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-* {
-    box-sizing: border-box;
-  }
 
-  /* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-  
-  .row {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* Clear floats after rows */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-
-  /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
