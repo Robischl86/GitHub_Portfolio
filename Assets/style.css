@@ -7,8 +7,13 @@ body {
 
 
 #page-container {
-  position: relative;
+    position: relative;
+    min-height: 100vh;
+
 }
+
+
+
 
 nav.whiteNav {
     background-color: #fff8f9;
@@ -16,6 +21,8 @@ nav.whiteNav {
 
 #mainContent {
     background-color: white;
+    position: relative;
+    padding-bottom: 4.5rem; 
 }
 
 #topbanner {
@@ -39,7 +46,7 @@ div.about_image {
 
 
 img.portfolio {
-    width: 250px; 
+    width: 100px; 
 }
 
 p.biography {
@@ -58,13 +65,11 @@ section.graybox {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: #fff8f9;
-    margin-top: 0;
-    position: relative;
-    left: 0;
+    position: fixed;
+    bottom: 0;
     width: 100%;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 4.5rem;
 }
 
 

@@ -16,126 +16,119 @@
     </head>
 
     <body>
-        <div class="container mainContent">
+        <div class="container" id="page-container">
+                <nav class="navbar navbar-expand-lg navbar-light whiteNav">
+                    <section class="navbar-brand topbanner"
+                    href="#"
+                    id="topbanner"
+                    >
+                    Levi Robischon
+                    </section>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto" style="color: white;">
+                            <li class="nav-item">
+                            <a class="nav-link" href="../index.html">About</a>
+                            </li>
+                            <li class="nav-item active">
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="mainContent">
+                    <section class="graybox">
+                        <br>
+                        <h2 class="greeny">Portfolio</h2>
+                        <br>
 
-            <nav class="navbar navbar-expand-lg navbar-light whiteNav">
-                <section class="navbar-brand topbanner"
-                href="#"
-                id="topbanner"
-                >
-                Levi Robischon
-                </section>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto" style="color: white;">
-                        <li class="nav-item active">
-                        <a class="nav-link" href="../index.html">About <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <section class="graybox">
-                <br>
-                <h2 class="greeny">Portfolio</h2>
-                <br>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="card about_image">
+                                <img src="./Images/passwordGenImg.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h3 class="greeny">Password Generator</h2>
+                                <P>This is a random password generator that was created as an assignment for the University of Washington Coding Bootcamp. When initiated, the application prompts the user to answer a series of questions regarding their password preferences, such as character length and character types.</P>
+                                <p>The random password generator was completed and uploaded to GitHub on April 29, 2020. It uses standard Javascript code and CSS styling.</p>
+                                <p><strong>Github: </strong><a href="https://robischl86.github.io/UWBCH3_Random_Password_Generator/">Random Password Generator</a></p>
+                            </div>
 
-                <div class="row">
-                    <div class="col-5">
-                        <div class="card about_image">
-                        <img src="./Images/passwordGenImg.jpg" class="card-img-top" alt="...">
                         </div>
-                    </div>
-                    <div class="col-7">
-                        <h3 class="greeny">Password Generator</h2>
-                        <P>This is a random password generator that was created as an assignment for the University of Washington Coding Bootcamp. When initiated, the application prompts the user to answer a series of questions regarding their password preferences, such as character length and character types.</P>
-                        <p>The random password generator was completed and uploaded to GitHub on April 29, 2020. It uses standard Javascript code and CSS styling.</p>
-                        <p><strong>Github: </strong><a href="https://robischl86.github.io/UWBCH3_Random_Password_Generator/">Random Password Generator</a></p>
-                    </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="card about_image">
+                                <img src="./Images/WeatherDashboardIMG.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h3 class="greeny">Weather Dashboard</h2>
+                                <p>The Weather Dashboard is an application that will present the current and five-day forecast weather information of any city that the user enters into a search form. The application saves the name of each city and appends it as a button that the user can use to quickly find the weather for that location.</p>
+                                <p>The Weather Dashboard was completed on May 7, 2020. It uses a JSON query to pull the weather data from the OpenWeather API. The styling was done with the Bootstrap CSS library</p>
+                                <p><strong>Github: </strong><a href="https://robischl86.github.io/OpenWeather-Forecast-Dashboard/">Weather Dashboard</a></p>
+                            </div>
 
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-5">
-                        <div class="card about_image">
-                        <img src="./Images/WeatherDashboardIMG.jpg" class="card-img-top" alt="...">
                         </div>
-                    </div>
-                    <div class="col-7">
-                        <h3 class="greeny">Weather Dashboard</h2>
-                        <p>The Weather Dashboard is an application that will present the current and five-day forecast weather information of any city that the user enters into a search form. The application saves the name of each city and appends it as a button that the user can use to quickly find the weather for that location.</p>
-                        <p>The Weather Dashboard was completed on May 7, 2020. It uses a JSON query to pull the weather data from the OpenWeather API. The styling was done with the Bootstrap CSS library</p>
-                        <p><strong>Github: </strong><a href="https://robischl86.github.io/OpenWeather-Forecast-Dashboard/">Weather Dashboard</a></p>
-                    </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="card about_image">
+                                <img src="./Images/EngineeringRosterGenerator.png" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h3 class="greeny">Software Engineering Team Generator CLI</h2>
+                                <p>This is a software engineering team generator command line application. It will prompt the user for information about the team manager and then the team members and then generate an HTML file that displays the team roster.</p>
+                                <p>It runs as a Node CLI and requires inquirer to collect information.</p>
+                                <p><strong>Github: </strong><a href="https://github.com/Robischl86/Software-Engineering-Team-Generator-CLI">Software Engineering Team Generator CLI</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="card about_image">
+                                <img src="./Images/readmeGenerator.png" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h3 class="greeny">Readme Generator</h2>
+                                <p>This application uses the Node.js File System and Inquirer modules to create a clean and responsive readme file based. After running the script in the node terminal, the user is presented with a series of prompts relating to their project. The application then writes the information into a markdown file to be used as the user's readme.</p>
+                                <p><strong>Github: </strong><a href="https://github.com/Robischl86/Readme-Generator">Readme Generator</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="card about_image">
+                                <img src="./Images/tripSafe.png" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-7">
+                                <h3 class="greeny">Trip Safe</h2>
+                                <p>This application API calls to display Covid-19 cases and fatality rates in different states in the US and links users to hotel booking sites for cities in the US.</p>
+                                <p><strong>Github: </strong><a href="https://github.com/Jose-lco/Project2">Trip Safe</a></p>
+                            </div>
+                        </div>
+                        <br>
+                        </div>
+                        <br>
 
+                    </section>
                 </div>
-              <br>
-                <div class="row">
-                    <div class="col-5">
-                        <div class="card about_image">
-                        <img src="./Images/EngineeringRosterGenerator.png" class="card-img-top" alt="...">
-                        </div>
-                    </div>
-                    <div class="col-7">
-                        <h3 class="greeny">Software Engineering Team Generator CLI</h2>
-                        <p>This is a software engineering team generator command line application. It will prompt the user for information about the team manager and then the team members and then generate an HTML file that displays the team roster.</p>
-                        <p>It runs as a Node CLI and requires inquirer to collect information.</p>
-                        <p><strong>Github: </strong><a href="https://github.com/Robischl86/Software-Engineering-Team-Generator-CLI">Software Engineering Team Generator CLI</a></p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-5">
-                        <div class="card about_image">
-                        <img src="./Images/readmeGenerator.png" class="card-img-top" alt="...">
-                        </div>
-                    </div>
-                    <div class="col-7">
-                        <h3 class="greeny">Readme Generator</h2>
-                        <p>This application uses the Node.js File System and Inquirer modules to create a clean and responsive readme file based. After running the script in the node terminal, the user is presented with a series of prompts relating to their project. The application then writes the information into a markdown file to be used as the user's readme.</p>
-                        <p><strong>Github: </strong><a href="https://github.com/Robischl86/Readme-Generator">Readme Generator</a></p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-5">
-                        <div class="card about_image">
-                        <img src="./Images/tripSafe.png" class="card-img-top" alt="...">
-                        </div>
-                    </div>
-                    <div class="col-7">
-                        <h3 class="greeny">Trip Safe</h2>
-                        <p>This application API calls to display Covid-19 cases and fatality rates in different states in the US and links users to hotel booking sites for cities in the US.</p>
-                        <p><strong>Github: </strong><a href="https://github.com/Jose-lco/Project2">Trip Safe</a></p>
-                    </div>
-                </div>
-                <br>
-            </div>
-          <br>
 
-            </section>
-            <footer id="footer">
-              <h4>Designed and produced by Levi Robischon</h6>
-              <p>
-                  &copy; Robischon
-              </p>
-          </footer>
         </div>
-
-
-
-
-
-
-
-
+        <footer id="footer">
+            <h4>Designed and produced by Levi Robischon</h6>
+            <p>
+                &copy; Levi Robischon 2020
+            </p>
+        </footer>
     </body>
-
 </html>
